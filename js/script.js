@@ -16,10 +16,10 @@ function restart() {
     test.style.visibility = 'hidden';
     clearTimeout(t);
     button.innerHTML = 'Click';
-    timeSec.innerHTML = ``;
-    time.innerHTML = ``;
+    timeSec.innerHTML = `S`;
+    time.innerHTML = `Ms`;
     clickDone.innerHTML = '';
-    paragraph.innerHTML = '';
+    paragraph.innerHTML = 'Start clicking';
     clickCount = 0;
     isEnd = false;
     isStart = false;
